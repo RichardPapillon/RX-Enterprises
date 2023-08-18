@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background: rgb(198, 195, 214);
+}
+.top-container{
+    background: url(jeune\ loup.jpg);
+    background-color: rgb(54, 54, 54);
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Impact;
+    letter-spacing: 2px;
+    font-weight: 500;
+    flex-direction: column;
+
+}
+.logo{
+    height: 70px;
+    padding: 10px 0px 5px 20px;
+}
+
+.top-container h2{
+font-size: 60px;
+text-align: center;
+text-transform: uppercase;
+position: fixed;
+top: 200px;
+font-weight: 1;
+}
+
+.BOTD{
+font-size: 40px;
+font-family: "Segoe Script";
+}
+
+.text{
+    margin: 50px 20%;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);  
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    padding: 30px;
+}
+.navbar ul li a:hover{
+    filter: opacity(0.6);
+}
+.socials{
+    height: 20px;
+}
+.socials:hover{
+    filter: opacity(0.6)
+}
+.genius{
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+}
+.sentenceDisplay{
+    font-size: 60px;
+}
+h3{
+    font-size: 100px;
+    font-weight: 500;
+    position: fixed;
+    top: 10px;
+    text-transform: uppercase;
+}
+h4{
+
+    font-family: monospace;
+    position: fixed;
+    top: 300px;
+    margin: 0 10%  ;
+    font-size: 20px;
+}
+.bouton{
+    text-decoration: none;
+    color: white;
+    font-weight: 1;
+    position: fixed;
+    bottom: 100px;
+    font-size: 30px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: black;
+}
+.bouton:hover{
+    color: rgb(148, 148, 148);
+    scale: 110%;
+}
+h5{
+    font-size: 100px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+
+}
